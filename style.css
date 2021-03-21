@@ -1,0 +1,810 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/*----First Page Start-----*/
+
+.first-page-bg {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#First-Page {
+    height: 768px;
+    width: 1440px;
+}
+
+header {
+    padding-top: 6%;
+}
+
+.try-it-button {
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: hsl(208, 11%, 55%);
+    box-shadow: 3px 3px 20px lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    letter-spacing: 1.1px;
+}
+
+.try-it-button:hover {
+    background-color: hsl(208, 11%, 55%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.body-row-1 {
+    margin-top: 15%;
+}
+
+.body-heading-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.body-text-1 {
+    color: hsl(192, 100%, 9%);
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 8% 0 2% 0;
+}
+
+.get-started-button {
+    width: 60%;
+    height: 14%;
+    border-radius: 35px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    box-shadow: 3px 3px 20px lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    letter-spacing: 1.1px;
+    margin: 4% 0;
+}
+
+.get-started-button:hover {
+    background-color: hsl(322, 100%, 76%);
+}
+
+.illustration-1 {
+    width: 100%;
+    margin: -6% 0 0 3%;
+}
+
+/*----First Page End-----*/
+
+/*----Second Page Start-----*/
+
+#Second-Page {
+    height: 1800px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.info-box {
+    background-color: #fff;
+    box-shadow: 3px -2px 25px lightgray;
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+
+/*---Grow Together & Your Users Start---*/
+
+.grow-together {
+    /* display: flex;
+ flex-direction: row-reverse; */
+}
+
+.your-users {}
+
+.body-column-text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-column-img-1 {
+    display: flex;
+    align-items: center;
+}
+
+.body-heading-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: hsl(192, 100%, 9%);
+    margin: 6% 0 0 -35%;
+}
+
+.body-heading-4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: hsl(192, 100%, 9%);
+    margin: 5% 0 0 -48%;
+}
+
+.body-text-2 {
+    color: hsl(208, 11%, 55%);
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    margin: 5% 0;
+    width: 80%;
+}
+
+.illustration-2 {
+    width: 70%;
+}
+
+/*---Grow Together & Your Users End---*/
+
+/* ---Flowing Conversation Start--- */
+
+.flowing-conversation {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.body-column-text-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.body-heading-3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: hsl(192, 100%, 9%);
+    /* margin: 6% 0 0 -35%; */
+}
+
+.body-text-3 {
+    color: hsl(208, 11%, 55%);
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    margin: 3% 0;
+    width: 80%;
+}
+
+.body-column-img-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration-3 {
+    width: 70%;
+}
+
+/* ---Flowing Conversation End--- */
+
+/*-- Get Start Button Box Start --*/
+
+.button-info-box {
+    background-color: #fff;
+    box-shadow: 3px -2px 25px lightgray;
+    height: 250px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-info-box-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.button-info-box-button {
+    width: 60%;
+    height: 23%;
+    border-radius: 35px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    box-shadow: 3px 3px 20px lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    letter-spacing: 1.1px;
+    margin: 5% 0 2%;
+}
+
+.button-info-box-button:hover {
+    background-color: hsl(322, 100%, 76%);
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+/*-- Get Start Button Box End --*/
+
+/*----Second Page End-----*/
+
+/*---Footer Start---*/
+
+.footer-bg {
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    margin-top: -90px;
+}
+
+#footer {
+    height: 400px;
+    width: 1440px;
+    display: flex;
+    color: hsl(208, 11%, 55%);
+    margin: 0;
+    padding: 3%;
+    position: relative;
+   
+}
+.footer-body-row{
+    display: none;
+}
+.footer-first-column {
+    align-self: center;
+    padding: 0 !important;
+    margin-left: 5%;
+}
+.footer-second-column{
+    align-self: center;
+    padding: 0 !important;
+    margin-left: 5%;
+}
+.footer-third-column{
+    align-self: center;
+    padding: 0 !important;
+    margin-left: 5%;
+}
+
+
+.footer-logo {
+    filter: invert(1) brightness(50000%);
+    margin-bottom: 40px;
+}
+
+.footer-icon {
+    width: 5%;
+    height: 10%;
+    display: inline-block;
+}
+
+.footer-text {
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.footer-text-location {
+    font-size: .8rem;
+    display: inline-block;
+    width: 100%;
+    margin-left: 5%;
+    line-height: 2;
+}
+
+.location {
+    margin: 3% 0;
+}
+
+.phone {
+    margin: 6% 0;
+}
+
+.mail {
+    margin: 3% 0;
+}
+
+.text-link {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.text-link:hover {
+    cursor: pointer;
+    color: hsl(193, 100%, 96%);
+}
+
+.social-icon {
+    margin: 3%;
+}
+
+.footer-last-column {
+    align-self:center;
+    padding: 0 !important;
+}
+
+.copyright-text{
+    font-size: 1rem;
+    width: 100%;
+ position: absolute;
+ bottom: -140px;
+
+}
+
+/*---Footer End---*/
+
+/*-------Media Queries Start-----*/
+
+@media (max-width:775px) {
+
+/*----First Page Start-----*/
+
+.first-page-bg {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#First-Page {
+    height: 728px;
+    width: 360px;
+}
+.body-first-column{
+    height: 350px;
+}
+.body-second-column{
+    height: 230px;
+    margin-top: -30%;
+}
+.header-logo{
+    width: 100%;
+}
+/* .header-button{
+    display: flex !important;
+    align-items: flex-start !important;
+} */
+header {
+    padding-top: 3%;
+    display: flex;
+    align-content: center;
+    height: 70px;
+}
+
+.try-it-button {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: hsl(208, 11%, 55%);
+    box-shadow: 3px 3px 20px lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: .6rem;
+    letter-spacing: 1.1px;
+}
+
+.try-it-button:hover {
+    background-color: hsl(208, 11%, 55%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.body-row-1 {
+    margin-top: 10%;
+    text-align: center;
+    height: 700px;
+}
+
+.body-heading-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 20px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.body-text-1 {
+    color: hsl(192, 100%, 9%);
+    font-size: .8rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 8% 0 2% 0;
+}
+
+.get-started-button {
+    width: 80%;
+    height: 14%;
+    border-radius: 35px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    box-shadow: 3px 3px 20px lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    letter-spacing: 1.1px;
+    margin: 4% 0 0 0;
+}
+
+.get-started-button:hover {
+    background-color: hsl(322, 100%, 76%);
+}
+
+.illustration-1 {
+    width: 92%;
+    margin: 0% 0 0 0%;
+}
+
+/*----First Page End-----*/
+
+/*----Second Page Start-----*/
+body{
+  
+}
+
+#Second-Page {
+    height: 1700px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.info-box {
+    background-color: #fff;
+    box-shadow: 3px -2px 25px lightgray;
+    height: 440px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+
+/*---Grow Together & Your Users Start---*/
+
+.grow-together {
+   
+}
+.your-users {}
+
+.body-column-text-1 {
+    /* display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; */
+    height: 200px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.body-column-img-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    order: -1;
+
+}
+
+.body-heading-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsl(192, 100%, 9%);
+    margin: 0% 0 0 0%;
+}
+
+.body-heading-4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsl(192, 100%, 9%);
+    margin: 0;
+}
+
+.body-text-2 {
+    color: hsl(208, 11%, 55%);
+    font-size: .8rem;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    margin: 5% 0;
+    width: 80%;
+}
+
+.illustration-2 {
+    width: 85%;
+    margin-top: 20%;
+}
+
+/*---Grow Together & Your Users End---*/
+
+/* ---Flowing Conversation Start--- */
+
+.flowing-conversation {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.body-column-text-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.body-heading-3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 90%;
+    color: hsl(192, 100%, 9%);
+    margin: 0;
+}
+
+.body-text-3 {
+    color: hsl(208, 11%, 55%);
+    font-size: .8rem;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    margin: 5% 0;
+    width: 80%;
+}
+
+.body-column-img-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: -1;
+}
+
+.illustration-3 {
+    width: 80%;
+    margin-top: 15%;
+}
+
+/* ---Flowing Conversation End--- */
+
+/*-- Get Start Button Box Start --*/
+
+.button-info-box {
+    background-color: #fff;
+    box-shadow: 3px -2px 25px lightgray;
+    height: 250px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-info-box-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.button-info-box-button {
+    width: 60%;
+    height: 23%;
+    border-radius: 35px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    box-shadow: 3px 3px 20px lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    letter-spacing: 1.1px;
+    margin: 5% 0 2%;
+}
+
+.button-info-box-button:hover {
+    background-color: hsl(322, 100%, 76%);
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+/*-- Get Start Button Box End --*/
+
+/*----Second Page End-----*/
+
+/*-- Get Start Button Box Start --*/
+
+.button-info-box {
+    background-color: #fff;
+    box-shadow: 3px -2px 25px lightgray;
+    height: 250px;
+    width: 95%;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-info-box-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.button-info-box-button {
+    width: 70%;
+    height: 28%;
+    border-radius: 35px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    box-shadow: 3px 3px 20px lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: .6rem;
+    letter-spacing: 1.1px;
+    margin: 5% 0 2%;
+    position: relative;
+    z-index: 1;
+}
+
+.button-info-box-button:hover {
+    background-color: hsl(322, 100%, 76%);
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+/*-- Get Start Button Box End --*/
+
+/*---Footer Start---*/
+
+.footer-bg {
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    margin-top: -130px;
+    height: 800px;
+    position: relative;
+    z-index: -1;
+}
+
+#footer {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: hsl(208, 11%, 55%);
+    margin: 0;
+    padding: 3%;
+    overflow: hidden !important;
+}
+
+.footer-first-column {
+    margin-top: 60px;
+    align-self: flex-start;
+    padding: 0 !important;
+    margin-left: 0%;
+    height: 30%;
+    width: 100%;
+}
+.footer-second-column{
+    align-self: center;
+    position: absolute !important;
+    top: 45%;
+    left: 2%;
+}
+.footer-third-column{
+    align-self: center;
+    position: absolute !important;
+    top: 63%;
+    left: 2%;
+   
+}
+.footer-last-column {
+    align-self: center;
+    position: absolute !important;
+    top: 78%;
+    left: 2%;
+}
+
+.footer-logo {
+    filter: invert(1) brightness(50000%);
+    margin-bottom: 40px;
+    margin-left: 5%;
+}
+
+.footer-icon {
+    width: 5%;
+    height: 10%;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.footer-text {
+    font-size: .8rem;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.footer-text-location {
+    font-size: .8rem;
+    display: inline-block;
+    width: 70%;
+    margin-left: 5%;
+    line-height: 2;
+    margin-top: -3%;
+}
+
+.location {
+    margin: 2% 0;
+}
+
+.phone {
+    margin: 6% 0;
+}
+
+.mail {
+    margin: 3% 0;
+}
+
+.text-link {
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.text-link:hover {
+    cursor: pointer;
+    color: hsl(193, 100%, 96%);
+}
+.social{
+    position: relative;
+    left: 100px;
+    top:15px;
+    display: inline;
+}
+
+.social-icon {
+    margin: 3%;
+}
+
+.copyright-text{
+    font-size: .8rem;
+    width: 90%;
+ position: absolute;
+ left: 45px;
+ top: 75px;
+}
+
+/*---Footer End---*/
+
+}
+
+/*-------Media Queries End-----*/
